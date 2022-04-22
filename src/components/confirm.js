@@ -1,3 +1,4 @@
+// Confirm component
 const Confirm = () => {
 
     return(

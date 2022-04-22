@@ -1,8 +1,9 @@
+// Initial component
 const Initial = () => {
 
 	return (
 		<div className="initial-container center">
-			<h1>Ask a question</h1>
+			<h2 className="text-center">Ask a question</h2>
 			<input
 				name="question"
 				type="text"
@@ -10,7 +11,7 @@ const Initial = () => {
 			/>
 
 			<button
-				className="btn btn-dark center mt-3"
+				className="btn btn-danger center mt-3 d-block"
 			>
 				Next
 			</button>

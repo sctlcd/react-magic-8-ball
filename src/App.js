@@ -12,6 +12,9 @@ function App() {
 
   return (
     <div className="App">
+      <header className="title text-center">
+        <h1 className="upercase">React Magic 8-Ball</h1>
+      </header>
       <div className="container">
         {handleComponent()}
       </div>

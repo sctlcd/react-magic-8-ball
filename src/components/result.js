@@ -1,3 +1,4 @@
+// Result component
 const Result = () => {
 
     return (

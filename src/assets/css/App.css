@@ -2,13 +2,12 @@ body {
 	font-family: "Roboto", sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: var(--light-grey);
+	background-color: var(--black);
 }
 
-
 :root {
---charcoal: #626970;
---light-grey:#efefef;
+	--black:#000;
+	--off-white: #fafafa;
 }
 
 a {
@@ -26,14 +25,48 @@ a {
 	transform: translate(-50%, -50%);
 }
 
-h1,h3 {
+.center {
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+}
+
+h1, 
+h2, 
+h3 {
 	font-family: "Righteous", sans-serif;
-	color: var(--charcoal);
+	color: var(--off-white);
 	text-decoration: underline;
 }
 
-.center {
-margin: auto;
-width: 100%;
-padding: 10px;
+h1 {
+	color: var(--off-white);
+	text-decoration:none;
+	font-size: 2.8rem;
+}
+
+h2, h3 {
+	color: var(--off-white);
+	text-decoration: underline;
+}
+
+.upercase {
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 12rem;
+}
+
+/*********************************************** Initial component *****/
+
+.form-control {
+	background-color: var(--black);
+	border: 1px solid var(--off-white);
+	color: var(--off-white);
+}
+
+.form-control:focus { 
+  background-color: var(--black);
+	color: var(--off-white);
 }
