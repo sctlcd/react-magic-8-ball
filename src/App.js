@@ -7,17 +7,14 @@ function App() {
 
   const handleComponent = () => {
     const screen = 0;
-    return (screen === 0) ? <Initial/> : (screen === 1) ? <Confirm/> : <Result/>;
-    // if (screen === 0) return <Initial/>
-    // if (screen === 1) return <Confirm/>
-    // if (screen === 2) return <Result/>
+    return (screen === 0) ? <Initial /> : (screen === 1) ? <Confirm /> : <Result />;
   }
 
   return (
     <div className="App">
       <div className="container">
-        <h1>Ask a question</h1></div>
         {handleComponent()}
+      </div>
     </div>
   );
 }
